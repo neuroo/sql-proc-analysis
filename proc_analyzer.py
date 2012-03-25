@@ -255,7 +255,7 @@ def analyze_sql(conf):
 		print "Results stored in '%s'" % output_fname
 
 
-USAGE = """SQL 'procedures analyzer' by Romain Gaucher <rgaucher@cigital.com>
+USAGE = """SQL 'procedures analyzer' by Romain Gaucher <r@rgaucher.info>
 
 Note: This tool looks for bad code constructs in stored procedures for T-SQL.
 Bad constructs are limited to DML/EXEC statements where an input parameter
